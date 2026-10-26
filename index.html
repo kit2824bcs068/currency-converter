@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Currency Converter</title>
+</head>
+<body>
+  <main class="card">
+    <h1>Currency Converter</h1>
+    <input id="amount" type="number" value="1" min="0" />
+    <div class="row">
+      <select id="from"></select>
+      <button id="swap" aria-label="Swap currencies">⇄</button>
+      <select id="to"></select>
+    </div>
+    <h2 id="result"></h2>
+    <p id="status"></p>
+    <div class="chart-box"><canvas id="chart"></canvas></div>
+  </main>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
